@@ -1,0 +1,184 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<nav id="navbar">
+    <header>HTML For Beginners</header>
+    <ul>
+        <li><a class="nav-link" href="#HTML_Introduction">HTML Introduction</a></li>
+        <li><a class="nav-link" href="#HTML_Basic">HTML Basic</a></li>
+        <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+        <li><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></li>
+        <li><a class="nav-link" href="#HTML_Headings">HTML Headings</a></li>
+    </ul>
+</nav>
+
+<main id="main-doc">
+    <section class="main-section" id="HTML_Introduction">
+        <header>HTML Introduction</header>
+        <article>
+            <p>HTML is the standard markup language for creating Web pages.</p>
+            <p class="sub">What is HTML?</p>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements are represented by tags</li>
+                <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+                <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+            </ul>
+                <p class="sub">Example</p>
+                <code>
+                    &lt;!DOCTYPE html>
+                    &lt;html>
+                    &lt;head>
+                    &lt;title>Page Title&lt;/title>
+                    &lt;/head>
+                    &lt;body>
+                    
+                    &lt;h1>My First Heading&lt;/h1>
+                    &lt;p>My first paragraph.&lt;/p>
+                    
+                    &lt;/body>
+                    &lt;/html>
+                </code>
+                <p class="sub">Example explained</p>
+                <ul>
+                    <li>The &lt;!DOCTYPE html> declaration defines this document to be HTML5</li>
+                    <li>The &lt;html> element is the root element of an HTML page</li>
+                    <li>The &lt;head> element contains meta information about the document</li>
+                    <li>The &lt;title> element specifies a title for the document</li>
+                    <li>he &lt;body> element contains the visible page content</li>
+                    <li>The &lt;h1> element defines a large heading</li>
+                    <li>The &lt;p> element defines a paragraph</li>
+                </ul>
+                <p class="sub">HTML Tags</p>
+                <p>&lt;tagname>content goes here...&lt;/tagname></p>
+                <ul>
+                    <li>HTML tags normally come in pairs like &lt;p> and &lt;/p></li>
+                    <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
+                    <li>The end tag is written like the start tag, but with a forward slash inserted before the tag name</li>
+                </ul>
+        </article>
+    </section>
+    <section class="main-section" id="HTML_Basic">
+        <header>HTML Basic</header>
+        <article>
+            <p class="sub">HTML Documents</p>
+            <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html>.
+                <br>
+                The HTML document itself begins with &lt;html> and ends with &lt;/html>.
+                <br>
+                The visible part of the HTML document is between &lt;body> and &lt;/body>.
+                <br>
+            </p>
+            <p class="sub">Example</p>
+            <code>
+                &lt;!DOCTYPE html>
+                &lt;html>
+                &lt;body>
+                &lt;h1>My First Heading&lt;/h1>
+                &lt;p>My first paragraph.&lt;/p>
+                &lt;/body>
+                &lt;/html>
+            </code>
+            <br>
+            <p class="sub">HTML headings</p>
+            <p>HTML headings are defined with the &lt;h1> to &lt;h6> tags.</p>  
+            &lt;h1> defines the most important heading. 
+            <br>
+            &lt;h6> defines the least important heading: 
+            <br>
+            <p class="sub">Example</p>
+            <code>
+                &lt;h1>This is heading 1&lt;/h1>
+                &lt;h2>This is heading 2&lt;/h2>
+                &lt;h3>This is heading 3&lt;/h3>
+            </code>
+            <br>
+            <p class="sub">HTML Paragraphs</p>
+            <p>HTML paragraphs are defined with the &lt;p> tag:</p>
+            <p>Example</p>
+            <code>
+                &lt;p>This is a paragraph.&lt;/p>
+                &lt;p>This is another paragraph.&lt;/p>
+            </code>
+            <br>
+            <p class="sub">HTML Links</p>
+            <p>HTML links are defined with the &lt;a> tag:</p>
+            <p>Example</p>
+            <code>
+                &lt;a href="https://www.w3schools.com">This is a link&lt;/a>
+            </code>
+            <p>The link's destination is specified in the href attribute. 
+                <br>
+                Attributes are used to provide additional information about HTML elements.
+                <br>
+                You will learn more about attributes in a later chapter.
+                <br>
+            </p>
+            <p class="sub">HTML Images</p>
+            <p>HTML images are defined with the &lt;img> tag.</p>
+            <p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+            <p>Example</p>
+            <code>
+                &lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+            </code>
+            <br>
+            <p class="sub">HTML Buttons</p>
+            <p>HTML buttons are defined with the &lt;button> tag:</p>
+            <p class="sub">Example</p>
+            <code>
+                &lt;button>Click me&lt;/button>
+            </code>
+            <br>
+            <p class="sub">HTML Links</p>
+            <p>HTML lists are defined with the &lt;ul> (unordered/bullet list) or the &lt;ol> (ordered/numbered list) tag, followed by &ltli> tags (list items):</p>
+            <p class="sub">Example</p>
+            <code>
+                &lt;ul>
+                    &lt;li>Coffee&lt;/li>
+                    &lt;li>Tea&lt;/li>
+                    &lt;li>Milk&lt;/li>
+                    &lt;/ul>
+                  
+                &lt;ol>
+                    &lt;li>Coffee&lt;/li>
+                    &lt;li>Tea&lt;/li>
+                    &lt;li>Milk&lt;/li>
+                </ol>
+            </code>
+            <br>
+        </article>
+    </section>
+    <section class="main-section" id="HTML_Elements">
+        <header>HTML Elements</header>
+        <article>
+            <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+            <p>An HTML element usually consists of a start tag and an end tag, with the content inserted in between:</p>
+            <code>
+                &lt;tagname>Content goes here...&lt;/tagname>
+            </code>
+            <br>
+            <p class="sub">Example</p>
+            <code>
+                &lt;p>My first paragraph.&lt;/p>
+            </code>
+            <br>
+        </article>
+    </section>
+    <section class="main-section" id="HTML_Attributes">
+        <header>HTML Attributes</header>
+        <article>
+            <p>An HTML attribute provides additional information about an HTML element.</p>
+        </article>
+    </section>
+    <section class="main-section" id="HTML_Headings">
+        <header>HTML Headings</header>
+        <article>
+            <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+        </article>
+    </section>
+</main>
